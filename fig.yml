@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - .:/home/app/docker_demo
+  ports:
+    - "80:80"
+    - "443:443"
